@@ -23,4 +23,9 @@ public:
     {
         top == NULL;
     }
+
+    int push(int value)
+    {
+        
+    }
 };
