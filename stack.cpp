@@ -30,6 +30,8 @@ public:
         newNode->data = value;      // 2. Assign value
         newNode->next = top;        // 3. Set the next pointer of the new node to the top
         top = newNode;              // 4. Update the top pointer to the new node
+        cout << "Push Value: " << value << endl;
         
     }
+    
 };
