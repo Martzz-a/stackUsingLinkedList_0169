@@ -21,7 +21,7 @@ private:
 public:
     Stack()
     {
-        top == NULL;
+        top = NULL;
     }
 
     int push(int value)
